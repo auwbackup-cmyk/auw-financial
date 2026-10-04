@@ -1,7 +1,7 @@
 site,group,weekly_kg,yield,match,source
 Misfa,Chicken,43,1.0,leg quarter;whole chicken;griller,Rajeesh 2026-10-01: curry 13 kg + fry/biryani 30 kg per week
 Misfa,Mutton,26,1.0,mutton,Rajeesh 2026-10-01
-Misfa,Masoor dal,9,1.0,masoor,Rajeesh 2026-10-01
+Misfa,Masoor dal,63,1.0,masoor,Rajeesh 2026-10-01: 9 kg per day x 7 (confirmed per day 2026-10-04)
 Nizwa,Chicken,43,1.0,leg quarter;whole chicken;griller,Rajeesh 2026-10-01 (second message; labelled Misfa - confirm)
 Nizwa,Mutton,22,1.0,mutton,Rajeesh 2026-10-01 (second message; labelled Misfa - confirm)
-Nizwa,Masoor dal,10,1.0,masoor,Rajeesh 2026-10-01 (second message; labelled Misfa - confirm)
+Nizwa,Masoor dal,70,1.0,masoor,Rajeesh 2026-10-01: 10 kg per day x 7 (confirmed per day 2026-10-04; second message labelled Misfa - confirm site)

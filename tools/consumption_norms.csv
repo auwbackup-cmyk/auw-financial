@@ -1,7 +1,9 @@
 site,group,weekly_kg,yield,match,source
-Misfa,Chicken,43,1.0,leg quarter;whole chicken;griller,Rajeesh 2026-10-01: curry 13 kg + fry/biryani 30 kg per week
+Misfa,Chicken leg quarters,43,1.0,leg quarter,"Rajeesh 2026-10-01/05: 13 kg curry + 30 kg fry, biryani or chilli chicken per week, leg quarters"
+Misfa,Whole chicken,0,1.0,whole chicken;griller,Not on the kitchen's weekly usage list (Rajeesh 2026-10-05)
 Misfa,Mutton,26,1.0,mutton,Rajeesh 2026-10-01
-Misfa,Masoor dal,63,1.0,masoor,Rajeesh 2026-10-01: 9 kg per day x 7 (confirmed per day, masoor only, 2026-10-04)
-Nizwa,Chicken,43,1.0,leg quarter;whole chicken;griller,Rajeesh 2026-10-01 (second message, confirmed Nizwa 2026-10-04)
-Nizwa,Mutton,22,1.0,mutton,Rajeesh 2026-10-01 (second message, confirmed Nizwa 2026-10-04)
-Nizwa,Masoor dal,70,1.0,masoor,Rajeesh 2026-10-01: 10 kg per day x 7 (confirmed per day 2026-10-04; second message, confirmed Nizwa)
+Misfa,Masoor dal,63,1.0,masoor,"Rajeesh 2026-10-01: 9 kg per day x 7 (confirmed per day, masoor only, 2026-10-04)"
+Nizwa,Chicken leg quarters,43,1.0,leg quarter,"Rajeesh 2026-10-01/05: 13 kg curry + 30 kg fry, biryani or chilli chicken per week, leg quarters (second message, confirmed Nizwa)"
+Nizwa,Whole chicken,0,1.0,whole chicken;griller,Not on the kitchen's weekly usage list (Rajeesh 2026-10-05)
+Nizwa,Mutton,22,1.0,mutton,Rajeesh 2026-10-01 (second message; confirmed Nizwa 2026-10-04)
+Nizwa,Masoor dal,70,1.0,masoor,"Rajeesh 2026-10-01: 10 kg per day x 7 (confirmed per day, masoor only; second message, confirmed Nizwa)"

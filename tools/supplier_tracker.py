@@ -293,6 +293,13 @@ def build(lines, base, out_path, sites, norms=()):
                           f'{br:.3f} -> {cr:.3f} ({cr/br-1:+.0%} vs base); {val:,.0f} RO bought this month'))
     evp, evp_skipped = expected_vs_purchased(lines, norms, months) if norms else ([], {})
     for r in evp:
+        if r['month'] == last and r['norm'] == 0:
+            kg3 = sum(x['purchased'] for x in evp if x['site'] == r['site'] and x['group'] == r['group']
+                      and x['month'] in months[-3:])
+            if kg3 > 0:
+                flags.append(('High', 'Bought, not on usage list', r['site'], r['group'],
+                              f"{kg3:,.0f} kg bought in the last 3 months but the kitchen's usage list has none"))
+            continue
         if r['month'] != last or r['ratio3'] is None:
             continue
         if r['ratio3'] >= 1.5:
